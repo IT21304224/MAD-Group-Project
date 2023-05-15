@@ -26,6 +26,10 @@ class ItemDetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_item_details)
 
+
+
+
+
         initView()
         setValuesToViews()
 

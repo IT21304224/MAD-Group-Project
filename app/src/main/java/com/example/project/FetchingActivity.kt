@@ -33,6 +33,7 @@ class FetchingActivity : AppCompatActivity(),SearchView.OnQueryTextListener {
         tvLoadingData = findViewById(R.id.tvLoadingData)
         searchView = findViewById(R.id.searchView)
 
+
         itmList = arrayListOf<ItemModel>()
 
         searchView.setOnQueryTextListener(this)
