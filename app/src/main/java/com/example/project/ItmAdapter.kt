@@ -33,6 +33,8 @@ class ItmAdapter(private val itmList:ArrayList<ItemModel>) : RecyclerView.Adapte
         return itmList.size
     }
 
+
+
     class ViewHolder(itemView: View,clickListener: onItemClickListener):RecyclerView.ViewHolder(itemView){
         val tvItemName : TextView = itemView.findViewById(R.id.tvEmpName)
 
