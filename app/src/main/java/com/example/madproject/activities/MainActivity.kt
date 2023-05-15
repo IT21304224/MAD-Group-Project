@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var btnInsertData: Button
     private lateinit var btnFetchData: Button
+    private lateinit var btnBack2: Button
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         btnInsertData = findViewById(R.id.btnUpdateData2)
         btnFetchData = findViewById(R.id.btnFetchData)
+
 
         btnInsertData.setOnClickListener{
             val intent = Intent(this, addCard::class.java)
@@ -29,5 +31,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, FetchingCard::class.java)
             startActivity(intent)
         }
+
+
     }
 }

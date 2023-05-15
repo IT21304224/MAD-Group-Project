@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
+import android.widget.Button
 import androidx.appcompat.widget.SearchView
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -24,6 +25,7 @@ class FetchingCard : AppCompatActivity(), SearchView.OnQueryTextListener {
     private lateinit var cardList: ArrayList<CardModel>
     private lateinit var dbRef: DatabaseReference
 
+
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,6 +37,7 @@ class FetchingCard : AppCompatActivity(), SearchView.OnQueryTextListener {
         tvLoadingData = findViewById(R.id.tvLoadingData)
         searchView = findViewById(R.id.searchView)
 
+
         cardList = arrayListOf<CardModel>()
 
         // set up the SearchView
@@ -43,6 +46,7 @@ class FetchingCard : AppCompatActivity(), SearchView.OnQueryTextListener {
 
         // get data from Firebase
         getCardData()
+
 
     }
 

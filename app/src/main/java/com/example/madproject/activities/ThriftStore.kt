@@ -11,16 +11,21 @@ class ThriftStore : AppCompatActivity() {
 
     private lateinit var buy: Button
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_thrift_store)
 
+
         buy = findViewById(R.id.buy)
+
 
         buy.setOnClickListener{
             val intent = Intent(this, AddDelivery::class.java)
             startActivity(intent)
         }
+
 
     }
 }

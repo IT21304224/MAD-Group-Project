@@ -1,5 +1,6 @@
 package com.example.madproject.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -19,6 +20,7 @@ class addCard : AppCompatActivity() {
     private lateinit var etCVCNo: EditText
     private lateinit var btnInsertData: Button
 
+
     private lateinit var dbRef : DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,11 +34,13 @@ class addCard : AppCompatActivity() {
         etCVCNo = findViewById(R.id.etCVCNo)
         btnInsertData = findViewById(R.id.btnUpdateData2)
 
+
         dbRef = FirebaseDatabase.getInstance().getReference("Card")
 
         btnInsertData.setOnClickListener{
             saveCardData()
         }
+
     }
 
     private fun saveCardData(){

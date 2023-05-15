@@ -25,6 +25,7 @@ class AddDelivery : AppCompatActivity() {
     private lateinit var etZipCode: EditText
     private lateinit var btnNext: Button
 
+
     private lateinit var dbRef : DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,6 +42,7 @@ class AddDelivery : AppCompatActivity() {
         etZipCode = findViewById(R.id.etZipCode)
         btnNext = findViewById(R.id.btnNext)
 
+
         dbRef = FirebaseDatabase.getInstance().getReference("Delivery")
 
         btnNext.setOnClickListener{
@@ -48,6 +50,8 @@ class AddDelivery : AppCompatActivity() {
             val intent = Intent(this, TotalAmount::class.java)
             startActivity(intent)
         }
+
+
     }
 
     private fun saveDeliveryData(){

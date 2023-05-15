@@ -25,6 +25,7 @@ class ViewCardDetails : AppCompatActivity() {
     private lateinit var btnDeleteData: Button
     private lateinit var btnBack1: ImageView
 
+
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
