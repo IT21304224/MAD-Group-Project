@@ -18,6 +18,7 @@
         android:textColor="#F4F2F2"
         android:textSize="55sp" />
 
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
