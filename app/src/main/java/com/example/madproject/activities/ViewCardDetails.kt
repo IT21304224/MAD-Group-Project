@@ -63,7 +63,7 @@ class ViewCardDetails : AppCompatActivity() {
 
         mTask.addOnSuccessListener {
             Toast.makeText(this,"Card details deleted",Toast.LENGTH_LONG).show()
-            val intent = Intent(this,FetchingCard::class.java)
+            val intent = Intent(this,DeleteSuccess::class.java)
             finish()
             startActivity(intent)
         }.addOnFailureListener{ error->
