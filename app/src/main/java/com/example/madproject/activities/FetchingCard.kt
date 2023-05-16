@@ -37,7 +37,6 @@ class FetchingCard : AppCompatActivity(), SearchView.OnQueryTextListener {
         tvLoadingData = findViewById(R.id.tvLoadingData)
         searchView = findViewById(R.id.searchView)
 
-
         cardList = arrayListOf<CardModel>()
 
         // set up the SearchView
