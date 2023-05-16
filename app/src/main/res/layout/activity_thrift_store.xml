@@ -80,6 +80,18 @@
         android:text="Original nike air shoe for sale.In good condition.Can return goods if there is a problem"
         android:textSize="16sp" />
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="377dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Island wide delivery for Rs.300.00"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
     <Button
         android:id="@+id/buy"
         android:layout_width="250dp"
@@ -87,7 +99,7 @@
         android:layout_marginLeft="80dp"
         android:layout_marginTop="50dp"
         android:background="#FFA500"
-        android:text="Buy Now"
+        android:text="Proceed"
         android:textSize="20sp" />
 
     <Button
