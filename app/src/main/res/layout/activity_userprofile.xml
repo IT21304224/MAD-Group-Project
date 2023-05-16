@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/text133"
+    tools:context=".activity_userprofile">
+
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="40dp"
+
+        android:drawablePadding="5dp"
+        android:gravity="start"
+        android:hint="  Last name"
+        android:inputType="text"
+        android:textColorHint="#8e9094"
+        android:textCursorDrawable="@null"
+        />
+
+    <EditText
+        android:id="@+id/user1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="40dp"
+
+        android:drawablePadding="5dp"
+        android:gravity="start"
+        android:hint="  username"
+        android:inputType="text"
+        android:textColorHint="#8e9094"
+        android:textCursorDrawable="@null"/>
+
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:enabled="false"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="40dp"
+
+        android:drawablePadding="5dp"
+        android:gravity="start"
+        android:hint="  email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#8e9094"
+        android:textCursorDrawable="@null"
+        />
+
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="40dp"
+
+        android:drawablePadding="5dp"
+        android:gravity="start"
+        android:hint="  First name"
+        android:inputType="text"
+        android:textColorHint="#8e9094"
+        android:textCursorDrawable="@null"
+        />
+
+    <EditText
+        android:id="@+id/contect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="40dp"
+
+        android:drawablePadding="5dp"
+        android:gravity="start"
+        android:hint="  Contact number"
+        android:inputType="text"
+        android:textColorHint="#8e9094"
+        android:textCursorDrawable="@null"
+        />
+
+    <Button
+        android:id="@+id/Edit"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginRight="40dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center"
+        android:onClick="Edite"
+        android:text="Edit profile"
+        android:textAllCaps="false"
+        android:textColor="#020519"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="160dp"
+        android:text="User_Name"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/_522516" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="420dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@drawable/whatsapp_image_2023_03_17_at_11_02_05_am" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="118dp"
+        android:text="User Profile"
+        />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/baseline_notifications_none_24" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="30dp"
+        app:srcCompat="@drawable/baseline_person_24" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="310dp"
+        app:srcCompat="@drawable/baseline_email_24" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/baseline_edit_24" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="410dp"
+        app:srcCompat="@drawable/baseline_edit_24" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="460dp"
+        app:srcCompat="@drawable/baseline_phone_24" />
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="502dp"
+        android:layout_marginTop="5dp"
+        android:text="Sing Out " />
+
+    <Button
+        android:id="@+id/Feedback"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginRight="40dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center"
+        android:onClick="Feedback"
+        android:text="My Feedback"
+        android:textAllCaps="false"
+        android:textColor="#020519"
+        android:textSize="20dp" />
+
+
+
+</RelativeLayout>
