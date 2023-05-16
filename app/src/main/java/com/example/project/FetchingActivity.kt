@@ -16,15 +16,19 @@ class FetchingActivity : AppCompatActivity() {
     private lateinit var itmList : ArrayList<ItemModel>
     private lateinit var dbRef : DatabaseReference
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fetching)
+
 
         itmRecyclerView = findViewById(R.id.rvEmp)
         itmRecyclerView.layoutManager = LinearLayoutManager(this)
         itmRecyclerView.setHasFixedSize(true)
         tvLoadingData = findViewById(R.id.tvLoadingData)
         itmList = arrayListOf<ItemModel>()
+
 
         getItemsData()
     }
