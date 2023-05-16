@@ -63,7 +63,6 @@ class FetchingActivity : AppCompatActivity() {
                             startActivity(intent)
                         }
 
-
                     })
 
                     itmRecyclerView.visibility = View.VISIBLE
@@ -76,7 +75,6 @@ class FetchingActivity : AppCompatActivity() {
             }
 
         })
-
 
 
     }
