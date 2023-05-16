@@ -18,6 +18,7 @@ class FetchingActivity : AppCompatActivity() {
 
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fetching)
@@ -60,6 +61,7 @@ class FetchingActivity : AppCompatActivity() {
                             startActivity(intent)
                         }
 
+
                     })
 
                     itmRecyclerView.visibility = View.VISIBLE
@@ -72,6 +74,7 @@ class FetchingActivity : AppCompatActivity() {
             }
 
         })
+
 
     }
 }
