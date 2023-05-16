@@ -24,11 +24,13 @@ class FetchingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_fetching)
 
 
+
         itmRecyclerView = findViewById(R.id.rvEmp)
         itmRecyclerView.layoutManager = LinearLayoutManager(this)
         itmRecyclerView.setHasFixedSize(true)
         tvLoadingData = findViewById(R.id.tvLoadingData)
         itmList = arrayListOf<ItemModel>()
+
 
 
         getItemsData()
@@ -74,6 +76,7 @@ class FetchingActivity : AppCompatActivity() {
             }
 
         })
+
 
 
     }
