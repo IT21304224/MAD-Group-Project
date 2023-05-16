@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         btnInsertData = findViewById(R.id.btnUpdateData2)
         btnFetchData = findViewById(R.id.btnFetchData)
 
-
         btnInsertData.setOnClickListener{
             val intent = Intent(this, addCard::class.java)
             startActivity(intent)
