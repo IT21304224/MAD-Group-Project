@@ -26,8 +26,12 @@ class ItemDetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_item_details)
 
+        buy = findViewById(R.id.buy)
 
-
+        buy.setOnClickListener{
+            val intent = Intent(this,Calculation::class.java)
+            startActivity(intent)
+        }
 
 
         initView()
