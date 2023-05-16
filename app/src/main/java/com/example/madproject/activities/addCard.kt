@@ -39,6 +39,8 @@ class addCard : AppCompatActivity() {
 
         btnInsertData.setOnClickListener{
             saveCardData()
+            val intent = Intent(this,FetchingCard::class.java)
+            startActivity(intent)
         }
 
     }
@@ -81,6 +83,7 @@ class addCard : AppCompatActivity() {
                 etCHname.text.clear()
                 etExpDate.text.clear()
                 etCVCNo.text.clear()
+
 
             }.addOnFailureListener{err->
                 Toast.makeText(this,"Error ${err.message}", Toast.LENGTH_LONG).show()

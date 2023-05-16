@@ -29,20 +29,32 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="340dp"
-                android:layout_height="400dp"
+                android:layout_height="472dp"
                 android:layout_marginLeft="1dp"
                 android:layout_marginTop="150dp"
 
                 app:cardCornerRadius="11dp"
                 app:cardElevation="11dp"
-                app:cardUseCompatPadding="true" >
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="287dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="If your total amount is more than Rs.2500, you will not be charged a delivery fee."
+                    android:textAlignment="center"
+                    android:textColor="@color/dashboard_background1"
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/btnPayok"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="175dp"
-                    android:layout_marginTop="280dp"
+                    android:layout_marginTop="320dp"
                     android:background="@android:color/holo_orange_light"
                     android:text="@string/pay" />
 
@@ -51,7 +63,7 @@
                     android:layout_width="130dp"
                     android:layout_height="37dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="110dp"
                     android:text="@string/itemamount1"
 
                     android:textSize="20sp" />
@@ -61,7 +73,7 @@
                     android:layout_width="126dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="105dp"
+                    android:layout_marginTop="145dp"
                     android:text="@string/deliveryfee1"
                     android:textSize="20sp" />
 
@@ -70,7 +82,7 @@
                     android:layout_width="144dp"
                     android:layout_height="38dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="210dp"
+                    android:layout_marginTop="250dp"
                     android:text="@string/totalpayment1"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -80,7 +92,7 @@
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:layout_marginLeft="110dp"
-                    android:layout_marginTop="155dp"
+                    android:layout_marginTop="195dp"
                     android:background="@android:color/holo_orange_light"
                     android:text="Calculate" />
 
@@ -89,7 +101,7 @@
                     android:layout_width="151dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="150dp"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="110dp"
                     android:ems="10"
                     android:inputType="numberSigned" />
 
@@ -98,7 +110,7 @@
                     android:layout_width="148dp"
                     android:layout_height="39dp"
                     android:layout_marginLeft="150dp"
-                    android:layout_marginTop="105dp"
+                    android:layout_marginTop="145dp"
                     android:ems="10"
                     android:inputType="numberSigned"
                     android:textSize="20sp"
@@ -109,7 +121,7 @@
                     android:layout_width="127dp"
                     android:layout_height="39dp"
                     android:layout_marginLeft="180dp"
-                    android:layout_marginTop="210dp"
+                    android:layout_marginTop="250dp"
                     android:ems="10"
                     android:inputType="numberSigned"
                     android:textSize="20sp"
@@ -120,7 +132,7 @@
                     android:layout_width="100dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="30dp"
-                    android:layout_marginTop="280dp"
+                    android:layout_marginTop="320dp"
                     android:background="@android:color/holo_orange_light"
                     android:text="@string/cancel" />
             </androidx.cardview.widget.CardView>
