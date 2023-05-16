@@ -38,11 +38,13 @@ class InsertionActivity : AppCompatActivity() {
         }
 
 
+
     }
     private fun saveItemData(){
         val itemName = itmName.text.toString()
         val itemPrice = itmPrice.text.toString()
         val itemDescription = itmDescription.text.toString()
+
 
         if (itemName.isEmpty()){
             itmName.error = "Please enter the name"
