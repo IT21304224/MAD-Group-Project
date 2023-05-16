@@ -26,6 +26,7 @@
         android:layout_marginTop="-100dp"
         app:srcCompat="@drawable/sign_up_form_4575543_3798675" />
 
+
     <EditText
         android:id="@+id/textView2"
         android:layout_width="match_parent"
