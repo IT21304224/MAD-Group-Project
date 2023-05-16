@@ -35,6 +35,7 @@ class Calculation : AppCompatActivity() {
             val res1 = etItemAmount.text.toString().toInt()
 
 
+
             if (res1 > 2000) {
                 val alertDialog = AlertDialog.Builder(this)
                     .setTitle("You got a offer")
